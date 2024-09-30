@@ -15,7 +15,7 @@ All R code was written and using on R version 4.0.3.
 Some elements of the code use packages that have since been deprecated (e.g. the ggsn package to add scale bars to maps in Figure 4) and may not run on more recent versions of R.
 
 ### Data
-We provide the following bio-logging data collected from adult Gannets breeding at Grassholm collected between 2011 and 2013:
+We provide the following bio-logging data collected from adult Gannets breeding at Grassholm collected between 2011 and 2013 to study dive behaviour (temperature depth recorders) and social foraging (camera loggers):
 
 Year | Tracked Birds| Complete Trips Recorded | Total GPS Fixes| Images Collected| Dives Recorded
 --- | --- | --- | --- | --- | ---
