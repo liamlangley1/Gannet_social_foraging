@@ -11,7 +11,7 @@ A repo containing data and reproducible code for the manuscript "Langley, L.P., 
 
 ## Usage
 ### Background
-NB: All R code was written and using on R version 4.0.3. 
+All R code was written and using on R version 4.0.3. 
 Some elements of the code use packages that have since been deprecated (e.g. the ggsn package to add scale bars to maps in Figure 4) and may not run on more recent versions of R.
 
 ### Data
