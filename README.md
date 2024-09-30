@@ -20,8 +20,8 @@ We provide the following bio-logging data collected from adult Gannets breeding 
 Year | Tracked Birds| Complete Trips Recorded | Total GPS Fixes| Images Collected| Dives Recorded
 --- | --- | --- | --- | --- | ---
 2011| 8| 8 | 8670 | 7495| - 
-2012| 21| 26 | 26,979 | -| 917 
-2011| 25| 35 | 34,719 | -| 1590 
+2012| 21| 26 | 26,979 | -| 673 
+2011| 25| 35 | 34,719 | -| 917 
 
 
 <img src="Gannet_graphics/flock.png" id="id" class="class" width=50% height=100% > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
