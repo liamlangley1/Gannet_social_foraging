@@ -17,8 +17,16 @@ Some elements of the code use packages that have since been deprecated (e.g. the
 ### Data
 We provide the following bio-logging data collected from adult Gannets breeding at Grassholm collected between 2011 and 2013:
 
+Year | Tracked Birds| Complete Trips Recorded | Total GPS Fixes| Images Collected| Dives Recorded
+--- | --- | --- | --- | --- | ---
+2011| 8| 8 | 8670 | 7495| - 
+2012| 21| 26 | 26,979 | -| 917 
+2011| 25| 35 | 34,719 | -| 1590 
+
+
 <img src="Gannet_graphics/flock.png" id="id" class="class" width=50% height=100% > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="Gannet_graphics/plunge.png" id="id" class="class" width=25% height=10% > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 - `Data/Dive_Data`: A folder containing the following data files relating to gannet dive behaviour, originally collected by Sam Cox and analysed as part of Cox et al. 2016 ((https://doi.org/10.1098/rsos.160317)):
   1. `GannetDiveSummary_Oceanogrpahy_AllYears`: Dive information extracted from temperature depth recorders including dive depth and duration, annotated with location information from GPS data.
@@ -26,6 +34,8 @@ We provide the following bio-logging data collected from adult Gannets breeding 
   3. `GannetSummaryStatistics_CompleteTrips_2012_2013.csv`: Summary statistics (trip length, duration, max distance etc) calculated by Cox et al. for all complete trips cfrom tagged adult gannets in 2012 and 2013, used here to identify complete vs. incomplete trips. 
 
 - `Data/Camera_Data`: A folder containing GPS data from 8 adult gannets equipped with co-deployed cameras in 2011. GPS data is annotated with behavioural classifications from Hidden Markov Models by Clark et al. 2021 (https://doi.org/10.3354/meps13636) and sociality data (conspecifics present or absent) extracted from video stills by SCV.
+
+
 
 ### R scripts
 The R scripts provided here can be used to reproduce all analyses and figures from the paper. Scripts are numbered sequentially for analysis on the Camera and Dive data respectively and are intended to be run in order.
