@@ -89,7 +89,7 @@ summary(sofor_gamm4$gam)
 ## make prediction plot from the model
 ## and save as a tiff
 
-tiff(file = here("Figures","Figure5.tiff"),
+tiff(file = here("Figures","Figure_6.tiff"),
      width = 150, height = 100, units = "mm", res = 200)
 layout(mat = matrix(c(1,2), nrow = 1, ncol = 2),
        widths = 1, 2)
@@ -113,7 +113,7 @@ dev.off()
 
 ## read composite map back in to annotate with the graphics
 
-fig_img <- image_read(here("Figures", "Figure5.tiff"))
+fig_img <- image_read(here("Figures", "Figure_6.tiff"))
 
 ## read in graphic of gannet diving
 
@@ -136,7 +136,7 @@ c <- image_composite(b, dive_image_altered3, offset = "+900+75")
 
 ## save figure image
 
-image_write(c, here("Figures", "Figure5.png"))
+image_write(c, here("Figures", "Figure_6.png"))
 
 
 #------------------#

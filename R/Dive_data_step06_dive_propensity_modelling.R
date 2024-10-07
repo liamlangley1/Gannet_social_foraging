@@ -25,7 +25,7 @@ library(magick)
 ## from complete trips only
 ## annotated with dive events - all dives associated with the closest temporal GPS location
 
-df_gannets <- read.csv(here("Data_outputs", "Working_data_frames", "tracking_data_1213_cleaned_and_annotated.csv"))
+df_gannets <- read.csv(here("DataOutputs", "Working_data_frames", "tracking_data_1213_cleaned_and_annotated.csv"))
 
 head(df_gannets)
 str(df_gannets)
