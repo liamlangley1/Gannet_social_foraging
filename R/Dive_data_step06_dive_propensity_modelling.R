@@ -126,7 +126,7 @@ layout(mat = matrix(c(1,2), nrow = 1, ncol = 2),
 par(mar = c(4.5, 4, 1.5, 0.5))
 plot.gam(propensity_gamm4$gam, select = 1, shift = coef(propensity_gamm4$gam)[1],
      se = TRUE, seWithMean = TRUE, shade = TRUE, shade.col = alpha("#660099", 0.7),
-     trans = plogis, xlab = "Distance to colony (km)", ylab = "Dive propensity")
+     trans = plogis, xlab = "Distance to colony (km)", ylab = "Dive probability")
 title(main = "a. Outbound", adj = 0)
 par(mar = c(4.5, 0.5, 1.5, 4))
 plot.gam(propensity_gamm4$gam, select = 2,  shift = coef(propensity_gamm4$gam)[1],
