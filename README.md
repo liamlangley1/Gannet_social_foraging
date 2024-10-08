@@ -41,7 +41,7 @@ Year | Tracked Birds| Complete Trips Recorded | Total GPS Fixes| Images Collecte
 The R scripts provided here can be used to reproduce all analyses and figures from the paper. Scripts are numbered sequentially for analysis on the Camera and Dive data respectively and are intended to be run in order.
 1. `Camera_data_step01_clean_data.R`: Read in GPS data annotated with social information extracted from camera loggers and clean for further analysis.
 2. `Camera_data_step02.R`: Create population and individual level summaries of the social behaviours during gannet foraging trips.
-3. `Camera_data_step03_create_fig4.R`: Create manuscript figure 4 mapping social behaviours across gannet foraging trips.
+3. `Camera_data_step03_create_fig5.R`: Create manuscript figure 4 mapping social behaviours across gannet foraging trips.
 4. `Camera_data_step04_social_foraging_models.R`: Model social foraging propensity as a function of distance from the colony using GAMMs and create figure 5 for the manuscript.
 5. `Dive_data_step01_clean_and_annotate_data.R`: Clean and process GPS data annotated with dive information extracted from temperature depth records and annotate with trip metric information.
 6. `Dive_data_step02_create_data_breakdown.R`: Create a year-level summary of dive information.
