@@ -1,5 +1,5 @@
 # Competition and facilitation influence central place foraging ecology in a colonial marine predator
-A repo containing data and reproducible code for the manuscript "Langley, L.P., Cox, S.L., Patrick, S.C., Votier S.C. (2024). Competition and facilitation influence central place foraging ecology in a colonial marine predator."
+This repo contains the data and reproducible code used to perform the analyses and create the figures for the manuscript "Langley, L.P., Cox, S.L., Patrick, S.C., Votier S.C. (2024). Competition and facilitation influence central place foraging ecology in a colonial marine predator."
 
 ## Authors
 
